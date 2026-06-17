@@ -1,9 +1,12 @@
 # 🛡 Fraud Internship Detector
 
-A desktop Java (Swing) app that helps students check whether an internship
-offer or company website is **genuine** or a **scam**. You log in, paste the
-link of the site, and the app analyses it and returns a risk score with the
-exact warning signs it found.
+**🔗 Live app: https://fraud-internship-detector.onrender.com**
+*(Free hosting — the first visit after a quiet period may take ~30–60s to wake up.)*
+
+A Java app that helps students check whether an internship offer or company
+website is **genuine** or a **scam**. You log in, paste the link of the site,
+and the app analyses it and returns a risk score with the exact warning signs
+it found. It runs both as a **website** and as a **desktop (Swing) app**.
 
 > ⚠️ This is an automated heuristic tool, **not** legal proof. It flags common
 > scam patterns so you look closer before paying money or sharing documents.
