@@ -1,0 +1,8 @@
+# Compiled Java classes
+*.class
+
+# Local user accounts created at runtime
+users.txt
+
+# Secret API key for Google Safe Browsing — never commit this
+gsb_key.txt
