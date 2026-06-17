@@ -1,0 +1,15 @@
+# Render.com Blueprint — deploys the Java web app from the Dockerfile.
+# In Render: New +  ->  Blueprint  ->  pick this repo. Render reads this file.
+services:
+  - type: web
+    name: fraud-internship-detector
+    runtime: docker
+    plan: free
+    dockerfilePath: ./Dockerfile
+    healthCheckPath: /
+    autoDeploy: true        # redeploys automatically on every git push
+    envVars:
+      # Optional: paste your Google Safe Browsing key in the Render dashboard
+      # to turn on the live blacklist check. Leave unset to skip that one check.
+      - key: GSB_API_KEY
+        sync: false
